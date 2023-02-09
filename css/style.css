@@ -1,0 +1,34 @@
+/* RESET */
+*{
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+img{
+    width: 100%;
+}
+
+/* Utilities */
+.flex{
+    display: flex;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+/* MAIN */
+.container{
+    height: 100vh;
+    width: 100%;
+    /* debug */
+    border: 2px solid rebeccapurple;
+}
+/* Section-top */
+.col{
+    width: calc(100% / 7);
+    /* debug */
+    border:  1px solid black;
+    width: 50px;
+    height: 30px;
+}
